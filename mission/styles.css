@@ -30,8 +30,8 @@ h2 {
 }
 
 hr {
-    height: 1px;
-    margin-top: 1px;
+    background-color: lightgrey;
+    margin-top: 2px;
     margin-bottom: 40px;
 }
 
