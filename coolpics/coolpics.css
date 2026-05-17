@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, sans-serif;
+    background-color: #ccc;
+}
+header, footer {
+    background-color: #3f7fd1;
+    color: white;
+    text-align: center;
+    padding: 0.5rem;
+}
+h1 {
+    margin: 0.5;
+    font-size: 1.8rem;
+}
+.menu-button {
+    display: block;
+    margin: .5rem auto;
+    border: none;
+    background: transparent;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.menu li {
+    margin: 0.5rem 0;
+}
+.menu a {
+    color: white;
+    text-decoration: none;
+}
+.hide {
+    display: none;
+}
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #ccc;
+    padding: 0.5rem;
+}
+h2 {
+    text-align: center;
+    margin-top: 0.5;
+}
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    justify-items: center;
+}
+figure {
+    margin: 0;
+}
+img {
+    object-fit: cover;
+    width: 300px;
+    height: 300px;
+    border: 2px solid white;
+}
+footer {
+    font-size: 0.8rem;
+}
+
+
+
+@media screen and (min-width: 700px) {
+    .gallery {
+        grid-template-columns: 1fr 1fr;
+    }
+    .menu li {
+        display: inline;
+        margin: 0 0.5rem;
+    }
+}
+
+
+@media screen and (min-width: 1000px) {
+    .gallery {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .menu-button {
+        display: none;
+    }
+    .hide {
+        display: block;
+    }
+}
