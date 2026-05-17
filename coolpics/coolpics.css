@@ -13,7 +13,7 @@ header, footer {
     padding: 0.5rem;
 }
 h1 {
-    margin: 0.5;
+    margin: 0.5rem;
     font-size: 1.8rem;
 }
 .menu-button {
@@ -48,7 +48,7 @@ main {
 }
 h2 {
     text-align: center;
-    margin-top: 0.5;
+    margin-top: 0.5rem;
 }
 .gallery {
     display: grid;
