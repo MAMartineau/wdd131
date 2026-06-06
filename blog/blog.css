@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header, footer {
+    text-align: center;
+    padding: 1rem 0;
+}
+
+h1 {
+    font-size: 1.5rem;
+}
+
+nav {
+    border-top: 1.5px solid #d9a66a;
+    border-bottom: 1.5px solid #d9a66a;
+}
+
+.main-nav {
+    list-style: none;
+    padding: 0.5rem 1rem;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+    gap: 1.5rem;
+}
+
+.main-nav li {
+    padding: 8px;
+}
+
+.main-nav a {
+    color: #8b0000;
+    text-decoration: none;
+    font-size: 0.8rem;
+}
+
+.main-nav a:hover {
+    text-decoration: underline;
+}
+
+.book-review {
+    padding: 1rem;
+    margin-top: 40px;
+    border-top: 1.5px solid #d9a66a;
+}
+
+.book-info {
+    text-align: right;
+    font-size: 0.8rem;
+}
+
+.book-info p {
+    margin: 4px 0;
+}
+
+.book-content h2 {
+    color: #8b0000;
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+.book-content img {
+    max-width: 140px;
+    display: block;
+    margin: 0 auto;
+}
+
+.book-content p {
+    font-size: 0.8rem;
+}
+
+footer {
+    border-top: 1.5px solid #d9a66a;
+    font-size: 0.8rem;
+}
+
+@media (min-width: 600px) {
+    body {
+        max-width: 900px;
+        margin: 0 auto;
+    }
+
+    .main-nav {
+        gap: 2rem;
+        justify-content: flex-end;
+    }
+
+    .book-review {
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+        gap: 1rem;
+        border-top: none;
+    }
+
+    .book-info {
+        border-right: 1.5px solid #d9a66a;
+        padding-right: 1rem;
+    }
+
+    .book-content h2 {
+        text-align: left;
+    }
+
+    .book-content img {
+        max-width: 160px;
+    }
+}
