@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: sans-serif;
     margin: 0;
     padding: 0;
     line-height: 1.6;
@@ -10,7 +10,8 @@ header, footer {
     padding: 1rem 0;
 }
 
-h1 {
+h1, h2 {
+    font-family: serif;
     font-size: 1.5rem;
 }
 
@@ -71,6 +72,10 @@ nav {
 
 .book-content p {
     font-size: 0.8rem;
+}
+
+.date {
+    font-style: italic;
 }
 
 footer {
