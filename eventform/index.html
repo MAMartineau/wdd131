@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Event Sign Up Form for Students or Guests">
+    <meta name="author" content="Austin Martineau">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Ticket</title>
+    <link rel="icon" href="images/favicon.png">
+    <link href="event.css" rel="stylesheet">
+    <script defer src="event.js"></script>
+</head>
+<body>
+    <main class="wrapper">
+        <form id="ticketForm">
+            <h1 class="full">Event Ticket</h1>
+            <div class="field">
+                <label for="firstName">First Name</label>
+                <input id="firstName" name="firstName" type="text" required />
+            </div>
+
+            <div class="field">
+                <label for="lastName">Last Name</label>
+                <input id="lastName" name="lastName" type="text" required />
+            </div>
+
+            <div class="field full">
+                <label for="email">Email</label>
+                <input id="email" name="email" type="email" required />
+            </div>
+
+            <div class="field">
+                <label for="ticketType">Type</label>
+                <select id="ticketType" name="ticketType" aria-controls="dynamicField" required>
+                    <option value="">Choose one</option>
+                    <option value="student">Student</option>
+                    <option value="guest">Guest</option>
+                </select>
+            </div>
+
+            <div class="field">
+                <label for="eventDate">Event Date</label>
+                <input id="eventDate" name="eventDate" type="date" required />
+            </div>
+
+            <div id="dynamicField" class="field full" hidden>
+                <label id="dynamicLabel" for="dynamicInput"></label>
+                <input id="dynamicInput" name="dynamicInput" type="text"
+                >
+            </div>
+
+            <button class="full" type="submit">Create Ticket</button>
+
+        <section id="errors" aria-live="polite"></section>
+
+        <section id="ticketOutput" aria-live="polite"></section>
+
+        </form>
+
+    </main>
+
+</body>
+</html>

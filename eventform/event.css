@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    background: white;
+    margin: 0;
+}
+
+.wrapper {
+    width: 900px;
+    margin: 60px auto;
+    padding: 45px;
+    background: #c8d8e4;
+}
+
+form {
+    background: white;
+    border-radius: 6px;
+    padding: 45px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+h1 {
+    font-size: 2.75rem;
+    margin: 0 0 20px;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.full {
+    grid-column: 1 / 3;
+}
+
+label {
+    font-size: 1.35rem;
+}
+
+input,
+select {
+    box-sizing: border-box;
+    width: 100%;
+    height: 50px;
+    padding: 0 12px;
+    font-size: 1.35rem;
+    border: 1px solid #999;
+}
+
+button {
+    height: 50px;
+    padding: 4px;
+    font-size: 1.35rem;
+    background: #c8d8e4;
+    border: 1px solid #555;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #b4c9d8;
+}
+
+#dynamicField[hidden] {
+    display: none;
+}
+
+#errors {
+    color: black;
+    font-size: 1.35rem;
+}
+
+#errors:empty {
+    display: none;
+}
+
+#errors p {
+    margin: 0 0 8px;
+}
+
+#ticketOutput {
+    font-size: 1.35rem;
+}
+
+#ticketOutput:empty {
+    display: none;
+}
+
+#ticketOutput h2 {
+    font-size: 1.75rem;
+    margin-top: 0;
+}
