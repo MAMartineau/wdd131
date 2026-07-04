@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="180" viewBox="0 0 500 180" role="img" aria-labelledby="title desc">
+<title id="title">Utah Road Trip Builder Logo</title><desc id="desc">A simple logo with mountains, road, and the website name.</desc>
+<rect width="500" height="180" fill="#f8f1df"/>
+<path d="M0 120 L90 35 L150 120 Z" fill="#5f7353"/>
+<path d="M95 120 L210 25 L310 120 Z" fill="#396e94"/>
+<path d="M260 120 L370 45 L500 120 Z" fill="#a43312"/>
+<path d="M210 180 C230 145 250 130 275 120 C305 108 335 105 360 92" stroke="#2d2d2d" stroke-width="18" fill="none"/>
+<path d="M214 178 C232 148 252 133 276 124 C306 112 335 109 360 96" stroke="#ffffff" stroke-width="3" stroke-dasharray="16 14" fill="none"/>
+<text x="250" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="32" font-weight="700" fill="#2d2d2d">Utah Road Trip Builder</text>
+</svg>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="700" viewBox="0 0 900 700">
+<rect width="900" height="700" fill="#ffffff" stroke="#333"/>
+<rect x="40" y="30" width="820" height="70" fill="#396e94"/><text x="60" y="75" font-family="Arial" font-size="24" fill="white">Header: Logo + Navigation</text>
+<rect x="40" y="120" width="820" height="140" fill="#e7c24f"/><text x="60" y="175" font-family="Arial" font-size="28" fill="#222">Hero: Plan a Family Road Trip in Utah</text><text x="60" y="215" font-family="Arial" font-size="20" fill="#222">Short intro + Start Building button</text>
+<rect x="40" y="285" width="820" height="90" fill="#f4f4f4" stroke="#888"/><text x="60" y="325" font-family="Arial" font-size="22">Filter/Search Bar: Region | Cost | Season | Activity</text><text x="60" y="355" font-family="Arial" font-size="18">Search input + button</text>
+<rect x="40" y="405" width="250" height="170" fill="#f8f1df" stroke="#888"/><text x="65" y="445" font-family="Arial" font-size="20">Destination Card</text><text x="65" y="485" font-family="Arial" font-size="16">Image, name, tags</text><text x="65" y="525" font-family="Arial" font-size="16">Add to Trip</text>
+<rect x="325" y="405" width="250" height="170" fill="#f8f1df" stroke="#888"/><text x="350" y="445" font-family="Arial" font-size="20">Destination Card</text>
+<rect x="610" y="405" width="250" height="170" fill="#f8f1df" stroke="#888"/><text x="635" y="445" font-family="Arial" font-size="20">Destination Card</text>
+<rect x="40" y="610" width="820" height="55" fill="#a43312"/><text x="60" y="645" font-family="Arial" font-size="22" fill="white">Footer</text>
+</svg>

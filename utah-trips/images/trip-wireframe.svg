@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="700" viewBox="0 0 900 700">
+<rect width="900" height="700" fill="#ffffff" stroke="#333"/>
+<rect x="40" y="30" width="820" height="70" fill="#396e94"/><text x="60" y="75" font-family="Arial" font-size="24" fill="white">Header: Logo + Navigation</text>
+<rect x="40" y="125" width="520" height="80" fill="#f4f4f4" stroke="#888"/><text x="60" y="170" font-family="Arial" font-size="22">Selected Destination Details</text>
+<rect x="590" y="125" width="270" height="430" fill="#f8f1df" stroke="#888"/><text x="615" y="165" font-family="Arial" font-size="22">My Trip</text><text x="615" y="205" font-family="Arial" font-size="17">Selected stops list</text><text x="615" y="240" font-family="Arial" font-size="17">Total stops</text><text x="615" y="275" font-family="Arial" font-size="17">Estimated drive time</text><rect x="615" y="485" width="220" height="45" fill="#e7c24f"/><text x="650" y="515" font-family="Arial" font-size="18">Clear Trip</text>
+<rect x="40" y="235" width="520" height="320" fill="#ffffff" stroke="#888"/><text x="65" y="275" font-family="Arial" font-size="22">Suggested Itinerary / Trip Tips</text><text x="65" y="320" font-family="Arial" font-size="17">Packing list</text><text x="65" y="355" font-family="Arial" font-size="17">Safety reminder</text><text x="65" y="390" font-family="Arial" font-size="17">Best season message</text><text x="65" y="425" font-family="Arial" font-size="17">Conditional no-trip message</text>
+<rect x="40" y="610" width="820" height="55" fill="#a43312"/><text x="60" y="645" font-family="Arial" font-size="22" fill="white">Footer</text>
+</svg>

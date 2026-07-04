@@ -10,9 +10,9 @@
 
 	<body>
 		<header>
-			<h1>[Project name] Project Plan</h1>
-			<h2>FirstName LastName</h2>
-			<h2>WDD 131</h2>
+			<h1>Utah Road Trip Builder - Project Plan</h1>
+			<h2>Austin Martineau</h2>
+			<h2>WDD 131.02</h2>
 			<!-- In the header above, add the name or your site, your name and class number. For example if you are in section 3 you would put WDD 131.03 -->
 		</header>
 		<main>
@@ -20,22 +20,22 @@
 			<hr />
 			<h2>Overview</h2>
 			<h3>Purpose</h3>
-			<p>[Your purpose here]</p>
+			<p>The Utah Road Trip Builder helps families plan simple day trips by choosing Utah destinations based on season, distance, cost, and activity type. Users can browse suggested stops, filter destinations, and build a small custom itinerary for a family outing.</p>
 			<!-- change this -->
 
 			<h3>Audience</h3>
-			<p>[Your audience here]</p>
+			<p>Utah families, parents, students, and visitors who want easy, family-friendly road trip ideas without spending a lot of time planning.</p>
 			<!-- change this -->
 
 			<h3>Dynamic elements</h3>
-			<p>[Describe dynamic elements provided by Javascript here]</p>
+			<p>The site will use JavaScript to create destination cards from an array of destination objects. Users will be able to search and filter destinations by region, cost, season, and activity type. Each destination card will include an "Add to Trip" button that updates a selected trip itinerary section on the page. The itinerary will display the chosen stops, the total number of stops, and an estimated trip time. JavaScript will also show conditional messages, such as a message when no destinations match the selected filters or when no stops have been added to the trip yet.</p>
 			<!-- change this -->
 
 			<hr />
 			<h2>Branding</h2>
 			<h3>Website Logo</h3>
 			<!-- Replace this with some sort of logo for your site.  A logo can be as simple as the name of your site in a nice font :) -->
-			<img src="#" alt="Logo image" />
+			<img src="images/utah-road-trip-logo.png" alt="Utah Road Trip Builder logo with mountains and a road"><img />
 			<hr />
 			<h2>Style Guide</h2>
 
@@ -63,7 +63,7 @@
 						<td class="primary">[#396E94]</td>
 						<td class="secondary">[#E7C24F]</td>
 						<td class="accent1">[#A43312]</td>
-						<td class="accent2"></td>
+						<td class="accent2">[#F8F1DF]</td>
 					</tr>
 				</tbody>
 			</table>
@@ -73,34 +73,40 @@
 			<h3>Pseudocode for your project</h3>
 
 			<p>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-				veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-				commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-				velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-				occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-				mollit anim id est laborum.
+				Create an array named destinations. Each destination will be an object with properties for name, region, cost, season, activity type, drive time, image, description, and family-friendly tips.
+			</p>
+			<p>
+				When the page loads, call a function to display all destination cards. The function will loop through the destinations array with forEach and build the HTML for each card.
+			</p>
+			<p>
+				Listen for changes on the search input and filter controls. When the user searches or changes a filter, call a filter function that uses conditional logic and the filter array method to return matching destinations.
+			</p>
+			<p>
+				If matching destinations are found, display those destination cards. If no matching destinations are found, display a helpful message telling the user to adjust the search or filters.
+			</p>
+			<p>
+				When a user selects Add to Trip, add that destination object to a selectedTrip array. Then call an updateTrip function that displays the selected stops, total number of stops, and estimated drive time.
+			</p>
+			<p>
+				When the user selects Clear Trip, empty the selectedTrip array and update the itinerary section to show the default message again.
 			</p>
 
 			<h3>Wireframes</h3>
 			<p>
-				Create wireframes for your project page(s). One for each page and list them
-				here. 
+				The project will include two main pages: a landing page with the main trip builder and a trip tips page with the selected trip summary and helpful road trip planning information. 
 			</p>
 
 			<h3>Landing page</h3>
 			<p>
-				[Any additional details about home that the wireframe does not make
-				clear]
+				The landing page will include a header, navigation, hero section, search and filter controls, destination cards, and a footer. On mobile, the cards will stack in one column. On larger screens, the destination cards will display in a multi-column grid.	
 			</p>
-			<img src="#" alt="home page wireframe" />
+			<img src="images/home-wireframe.svg" alt="Home page wireframe for Utah Road Trip Builder" />
 
-			<h3>[Page 2 if needed]</h3>
+			<h3>Trip Tips Page</h3>
 			<p>
-				[Any additional details about page 2 that the wireframe does not make
-				clear]
+				The trip tips page will include a selected trip summary, trip planning tips, a short packing list, and conditional messages based on the selected trip. On mobile, the selected trip summary will stack below the main content.
 			</p>
-			<img src="#" alt="page 2 wireframe" />
+			<img src="images/trip-wireframe.svg" alt="Trip tips page wireframe for Utah Road Trip Builder" />
 		</main>
 	</body>
 </html>
